@@ -1,0 +1,20 @@
+{
+  "name": "placement-management-system",
+  "version": "1.0.0",
+  "description": "Campus Placement Management System — Full Stack Development Project",
+  "scripts": {
+    "server:dev": "npm run --prefix server dev",
+    "server:build": "npm run --prefix server build",
+    "server:start": "npm run --prefix server start",
+    "server:seed": "npm run --prefix server seed",
+    "server:test-db": "npm run --prefix server test:db",
+    "test:accounts": "npm run --prefix server verify:accounts",
+    "client:dev": "npm run --prefix client dev",
+    "client:build": "npm run --prefix client build",
+    "client:lint": "npm run --prefix client lint",
+    "build": "npm run --prefix server build && npm run --prefix client build"
+  },
+  "keywords": ["fsd", "placement-portal", "mern", "typescript", "react"],
+  "author": "",
+  "license": "ISC"
+}
